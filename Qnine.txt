@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int i=1;
+    cout<<"Numbers"<<"  "<<"Square"<<"\n";
+    while(i<11){
+        cout<<i<<"         "<<i*i<<"\n";
+        i++;
+    }
+    
+    return 0;
+}
